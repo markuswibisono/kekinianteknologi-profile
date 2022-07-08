@@ -1,7 +1,7 @@
 {
   "name": "testing-hosting",
   "version": "0.1.0",
-  "homepage": "http://kekinianteknologi.com/",
+  "homepage": "https://markuswibisono.github.io/testing-hosting/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
