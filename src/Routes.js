@@ -13,7 +13,7 @@ export default function Routes() {
   return (
     <Router>
        <Switch>
-          <Route exact path="/testing-hosting/aaa">
+          <Route exact path="/about">
                 testing
            </Route>
        </Switch>
