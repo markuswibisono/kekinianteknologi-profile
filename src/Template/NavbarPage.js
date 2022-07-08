@@ -10,39 +10,138 @@ import '../assets/css/style.css';
 
 import {  Container, Nav, Navbar  } from 'react-bootstrap';
 
+import { Link } from 'react-router-dom';
 
 
+function NavbarPage({ flagMenu }) {
 
-function NavbarPage() {
+  if(flagMenu == "home") {
     return (
-        <>
-
-
-
-        <section id="topbar" className ="d-flex align-items-center">
-            <div className ="container d-flex justify-content-center justify-content-md-between">
-                <div className="contact-info d-flex align-items-center">
-                <i className="bi bi-phone d-flex align-items-center ms-4"><span>08881283981</span></i>
-              </div>
+      <>
+      <section id="topbar" className ="d-flex align-items-center">
+          <div className ="container d-flex justify-content-center justify-content-md-between">
+              <div className="contact-info d-flex align-items-center">
+              <i className="bi bi-phone d-flex align-items-center ms-4"><span>08881283981</span></i>
             </div>
-        </section>
+          </div>
+      </section>
         <Navbar bg="dark" variant="dark">
           <Container>
             <Nav className="me-auto">
-              <Nav.Link >Home</Nav.Link>
-              <Nav.Link >About</Nav.Link>
-              <Nav.Link>Team</Nav.Link>
-              <Nav.Link >Portofolio</Nav.Link>
-              <Nav.Link >Contact</Nav.Link>
+              <Nav.Link  style={{ backgroundColor: 'orange' }} componentClass={Link} href="/testing-hosting" to="/testing-hosting">Home</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/about" to="/testing-hosting/about">About</Nav.Link>
+              <Nav.Link  componentClass={Link} href="/testing-hosting/team" to="/testing-hosting/team">Team</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/portofolio" to="/testing-hosting/portofolio">Portofolio</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/contact" to="/testing-hosting/contact">Contact</Nav.Link>
             </Nav>
         </Container>
         </Navbar>
+      </>
+    );
+  }
 
+  else if(flagMenu == "about") {
+    return (
+      <>
+      <section id="topbar" className ="d-flex align-items-center">
+          <div className ="container d-flex justify-content-center justify-content-md-between">
+              <div className="contact-info d-flex align-items-center">
+              <i className="bi bi-phone d-flex align-items-center ms-4"><span>08881283981</span></i>
+            </div>
+          </div>
+      </section>
+        <Navbar bg="dark" variant="dark">
+          <Container>
+            <Nav className="me-auto">
+              <Nav.Link componentClass={Link} href="/testing-hosting" to="/testing-hosting">Home</Nav.Link>
+              <Nav.Link style={{ backgroundColor: 'orange' }} componentClass={Link} href="/testing-hosting/about" to="/testing-hosting/about">About</Nav.Link>
+              <Nav.Link  componentClass={Link} href="/testing-hosting/team" to="/testing-hosting/team">Team</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/portofolio" to="/testing-hosting/portofolio">Portofolio</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/contact" to="/testing-hosting/contact">Contact</Nav.Link>
+            </Nav>
+        </Container>
+        </Navbar>
+      </>
+    );
+  }
+  else if(flagMenu == "team") {
 
+    return (
+      <>
+      <section id="topbar" className ="d-flex align-items-center">
+          <div className ="container d-flex justify-content-center justify-content-md-between">
+              <div className="contact-info d-flex align-items-center">
+              <i className="bi bi-phone d-flex align-items-center ms-4"><span>08881283981</span></i>
+            </div>
+          </div>
+      </section>
+        <Navbar bg="dark" variant="dark">
+          <Container>
+            <Nav className="me-auto">
+              <Nav.Link componentClass={Link} href="/testing-hosting" to="/testing-hosting">Home</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/about" to="/testing-hosting/about">About</Nav.Link>
+              <Nav.Link  style={{ backgroundColor: 'orange' }} componentClass={Link} href="/testing-hosting/team" to="/testing-hosting/team">Team</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/portofolio" to="/testing-hosting/portofolio">Portofolio</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/contact" to="/testing-hosting/contact">Contact</Nav.Link>
+            </Nav>
+        </Container>
+        </Navbar>
+      </>
+    );
+  }
+  else if(flagMenu == "portofolio") {
 
+    return (
+      <>
+      <section id="topbar" className ="d-flex align-items-center">
+          <div className ="container d-flex justify-content-center justify-content-md-between">
+              <div className="contact-info d-flex align-items-center">
+              <i className="bi bi-phone d-flex align-items-center ms-4"><span>08881283981</span></i>
+            </div>
+          </div>
+      </section>
+        <Navbar bg="dark" variant="dark">
+          <Container>
+            <Nav className="me-auto">
+              <Nav.Link componentClass={Link} href="/testing-hosting" to="/">Home</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/about" to="/testing-hosting/about">About</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/team" to="/testing-hosting/team">Team</Nav.Link>
+              <Nav.Link style={{ backgroundColor: 'orange' }}  componentClass={Link} href="/testing-hosting/portofolio" to="/testing-hosting/portofolio">Portofolio</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/contact" to="/testing-hosting/contact">Contact</Nav.Link>
+            </Nav>
+        </Container>
+        </Navbar>
+      </>
+    );
 
-        </>
-      );
+  }
+
+  else if(flagMenu == "contact") {
+
+    return (
+      <>
+      <section id="topbar" className ="d-flex align-items-center">
+          <div className ="container d-flex justify-content-center justify-content-md-between">
+              <div className="contact-info d-flex align-items-center">
+              <i className="bi bi-phone d-flex align-items-center ms-4"><span>08881283981</span></i>
+            </div>
+          </div>
+      </section>
+        <Navbar bg="dark" variant="dark">
+          <Container>
+            <Nav className="me-auto">
+              <Nav.Link componentClass={Link} href="/testing-hosting" to="/testing-hosting">Home</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/about" to="/testing-hosting/about">About</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/team" to="/testing-hosting/team">Team</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/portofolio" to="/testing-hosting/portofolio">Portofolio</Nav.Link>
+              <Nav.Link style={{ backgroundColor: 'orange' }} componentClass={Link} href="/testing-hosting/contact" to="/testing-hosting/contact">Contact</Nav.Link>
+            </Nav>
+        </Container>
+        </Navbar>
+      </>
+    );
+
+  }
  
 }
 
