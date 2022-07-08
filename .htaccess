@@ -1,0 +1,12 @@
+
+
+<IfModule mod_rewrite.c>
+
+	RewriteCond %{REQUEST_URI} ^/testing-hosting/.*
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule ^.*$ /testing-hosting/index.html [L]
+
+</IfModule>
+
+
+
