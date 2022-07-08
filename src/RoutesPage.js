@@ -1,21 +1,23 @@
 
 
 import {
-  BrowserRouter,
-  Routes, 
-  Route
+  BrowserRouter as Router,
+  Route,
+  Switch
 } from "react-router-dom";
 
-import App from './App';
 
-
-export default function RoutesPage() {
+function RoutesPage() {
+  console.log("data-->"+ process.env.PUBLIC_URL);
   return (
-    <BrowserRouter basename="/testing-hosting">
-        <Routes>
-          <Route path="/app" element={<App />}>
-          </Route>
-      </Routes>
-   </BrowserRouter>
+    <Router basename={process.env.PUBLIC_URL}>
+    <Switch>
+       <Route exact path="/aaa">
+          aaaa
+        </Route>
+    </Switch>
+ </Router>
   );
 }
+
+export default RoutesPage;
