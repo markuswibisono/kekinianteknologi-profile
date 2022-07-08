@@ -1,22 +1,16 @@
 
 
 import {
-  BrowserRouter as Router,
-  Route,
-  Switch
+  BrowserRouter
 
 } from "react-router-dom";
 
-
+import { Link } from 'react-router-dom';
 
 export default function Routes() {
   return (
-    <Router>
-       <Switch>
-          <Route exact path="/about">
-                testing
-           </Route>
-       </Switch>
-    </Router>
+    <BrowserRouter basename="/testing-hosting">
+      <Link to="/today"> testing link </Link>
+   </BrowserRouter>
   );
 }
