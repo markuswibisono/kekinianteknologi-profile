@@ -1,16 +1,21 @@
 
 
 import {
-  BrowserRouter
-
+  BrowserRouter,
+  Routes, 
+  Route
 } from "react-router-dom";
 
-import { Link } from 'react-router-dom';
+import App from './App';
+
 
 export default function Routes() {
   return (
     <BrowserRouter basename="/testing-hosting">
-      <Link to="/today"> testing link </Link>
+        <Routes>
+          <Route path="/app" element={<App />}>
+          </Route>
+      </Routes>
    </BrowserRouter>
   );
 }
