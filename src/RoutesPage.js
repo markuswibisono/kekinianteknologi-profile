@@ -9,9 +9,9 @@ import {
 
 function RoutesPage() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename={'/testing-hosting'}>
     <Switch>
-       <Route path={'/news'}>
+       <Route path={'/blog'}>
           aaaa
         </Route>
     </Switch>
