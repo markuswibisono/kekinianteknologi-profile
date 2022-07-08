@@ -8,11 +8,10 @@ import {
 
 
 function RoutesPage() {
-  console.log("data-->"+ process.env.PUBLIC_URL);
   return (
     <Router basename={process.env.PUBLIC_URL}>
     <Switch>
-       <Route exact path="/aaa">
+       <Route path={'/news'}>
           aaaa
         </Route>
     </Switch>
