@@ -9,7 +9,7 @@ import {
 import App from './App';
 
 
-export default function Routes() {
+export default function RoutesPage() {
   return (
     <BrowserRouter basename="/testing-hosting">
         <Routes>
