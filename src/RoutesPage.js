@@ -9,9 +9,9 @@ import {
 
 function RoutesPage() {
   return (
-    <Router basename={'/testing-hosting'}>
+    <Router>
     <Switch>
-       <Route path={'/blog'}>
+       <Route path={'/testing-hosting/blog'}>
           aaaa
         </Route>
     </Switch>
