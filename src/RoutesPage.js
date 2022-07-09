@@ -8,6 +8,9 @@ export default function RoutesPage() {
         <Route exact path='/about'>
           page about
         </Route>
+        <Route exact path='/test'>
+          page test
+        </Route>
       </Switch>      
     </Router>
   );
