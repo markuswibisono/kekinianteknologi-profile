@@ -1,22 +1,17 @@
 
 
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch
-} from "react-router-dom";
+import { HashRouter, Route } from 'react-router-dom';
+
+import App from './App';
 
 
-function RoutesPage() {
-  return (
-    <Router>
-    <Switch>
-       <Route path={'/testing-hosting/blog'}>
-          aaaa
-        </Route>
-    </Switch>
- </Router>
-  );
-}
-
-export default RoutesPage;
+const RoutesPage = () => (
+  <HashRouter  basename="{'/testing-hosting'}">
+    <Route
+      exact
+      path='/sss'
+      component={App}
+    />
+  </HashRouter>
+)
+export default RoutesPage
