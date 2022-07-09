@@ -3,17 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-//import RoutesPage from './RoutesPage';
-
-
-
-import App from './App';
+import RoutesPage from './RoutesPage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+
 root.render(
   <React.StrictMode>
-    <App />
+    
+    <RoutesPage />
 
   </React.StrictMode>
 );

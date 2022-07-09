@@ -1,17 +1,17 @@
 
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
-import { HashRouter, Route } from 'react-router-dom';
-
-import App from './App';
-
-
-const RoutesPage = () => (
-  <HashRouter  basename="{'/testing-hosting'}">
-    <Route
-      exact
-      path='/sss'
-      component={App}
-    />
-  </HashRouter>
-)
-export default RoutesPage
+export default function RoutesPage() {
+  return (
+    <Router basename={"/testing-hosting"}>
+    <Switch>
+      <Route exact path='/about'>
+          page about
+      </Route>
+      <Route exact path='/profile'>
+          page profile
+      </Route>
+    </Switch>      
+</Router>
+  );
+}

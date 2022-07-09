@@ -9,10 +9,7 @@ import { HashRouter as Router, Route, Switch }
                   <Router basename={"/testing-hosting"}>
                       <Switch>
                         <Route exact path='/about'>
-                          page about 
-                        </Route>
-                        <Route exact path='/contact'>
-                          page contact
+                         
                         </Route>
                       </Switch>      
                 </Router>
