@@ -28,9 +28,23 @@ export default function RoutesPage() {
             <PortofolioPage />
             <ContactPage />  
         </Route>
+        
         <Route exact path="/about">
-                < NavbarPage flagMenu="about"/>
+                <NavbarPage flagMenu="about"/>
                 <AboutPage />
+        </Route>
+
+        <Route exact path="/team">
+            <NavbarPage flagMenu="team" />
+            <TeamsPage /> 
+        </Route>
+        <Route exact path="/portofolio">
+              <NavbarPage flagMenu="portofolio" />
+              <PortofolioPage/> 
+        </Route>
+        <Route exact path="/contact">
+              <NavbarPage flagMenu="contact" />
+              <ContactPage/>
         </Route>
       </Switch>      
     </Router>

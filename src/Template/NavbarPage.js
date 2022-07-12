@@ -30,9 +30,9 @@ function NavbarPage({ flagMenu }) {
             <Nav className="me-auto">
               <Nav.Link  style={{ backgroundColor: 'orange' }} componentClass={Link} href="/testing-hosting" to="/testing-hosting">Home</Nav.Link>
               <Nav.Link componentClass={Link} href="/testing-hosting/#/about" to="/testing-hosting/#/about">About</Nav.Link>
-              <Nav.Link  componentClass={Link} href="/team" to="/team">Team</Nav.Link>
-              <Nav.Link componentClass={Link} href="/portofolio" to="/portofolio">Portofolio</Nav.Link>
-              <Nav.Link componentClass={Link} href="/contact" to="/contact">Contact</Nav.Link>
+              <Nav.Link  componentClass={Link} href="/testing-hosting/#/team" to="/testing-hosting/#/team">Team</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/#/portofolio" to="/testing-hosting/#/portofolio">Portofolio</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/#/contact" to="/testing-hosting/#/contact">Contact</Nav.Link>
             </Nav>
         </Container>
         </Navbar>
@@ -54,10 +54,10 @@ function NavbarPage({ flagMenu }) {
           <Container>
             <Nav className="me-auto">
               <Nav.Link componentClass={Link} href="/testing-hosting" to="/testing-hosting">Home</Nav.Link>
-              <Nav.Link style={{ backgroundColor: 'orange' }} componentClass={Link} href="/about" to="/about">About</Nav.Link>
-              <Nav.Link  componentClass={Link} href="/team" to="/team">Team</Nav.Link>
-              <Nav.Link componentClass={Link} href="/portofolio" to="/portofolio">Portofolio</Nav.Link>
-              <Nav.Link componentClass={Link} href="/contact" to="/contact">Contact</Nav.Link>
+              <Nav.Link style={{ backgroundColor: 'orange' }} componentClass={Link} href="/testing-hosting/#/about" to="/testing-hosting/#/about">About</Nav.Link>
+              <Nav.Link  componentClass={Link} href="/testing-hosting/#/team" to="/testing-hosting/#/team">Team</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/#/portofolio" to="/testing-hosting/#/portofolio">Portofolio</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/#/contact" to="/testing-hosting/#/contact">Contact</Nav.Link>
             </Nav>
         </Container>
         </Navbar>
@@ -78,11 +78,11 @@ function NavbarPage({ flagMenu }) {
         <Navbar bg="dark" variant="dark">
           <Container>
             <Nav className="me-auto">
-              <Nav.Link componentClass={Link} href="/" to="/">Home</Nav.Link>
-              <Nav.Link componentClass={Link} href="/about" to="/about">About</Nav.Link>
-              <Nav.Link  style={{ backgroundColor: 'orange' }} componentClass={Link} href="/team" to="/team">Team</Nav.Link>
-              <Nav.Link componentClass={Link} href="/portofolio" to="/portofolio">Portofolio</Nav.Link>
-              <Nav.Link componentClass={Link} href="/contact" to="/contact">Contact</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting" to="/testing-hosting">Home</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/#/about" to="/testing-hosting/#/about">About</Nav.Link>
+              <Nav.Link  style={{ backgroundColor: 'orange' }} componentClass={Link} href="/testing-hosting/#/team" to="/testing-hosting/#/team">Team</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/#/portofolio" to="/testing-hosting/#/portofolio">Portofolio</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/#/contact" to="/testing-hosting/#/contact">Contact</Nav.Link>
             </Nav>
         </Container>
         </Navbar>
@@ -103,11 +103,11 @@ function NavbarPage({ flagMenu }) {
         <Navbar bg="dark" variant="dark">
           <Container>
             <Nav className="me-auto">
-              <Nav.Link componentClass={Link} href="/" to="/">Home</Nav.Link>
-              <Nav.Link componentClass={Link} href="/about" to="/about">About</Nav.Link>
-              <Nav.Link componentClass={Link} href="/team" to="/team">Team</Nav.Link>
-              <Nav.Link style={{ backgroundColor: 'orange' }}  componentClass={Link} href="/portofolio" to="/portofolio">Portofolio</Nav.Link>
-              <Nav.Link componentClass={Link} href="/contact" to="/contact">Contact</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting" to="/testing-hosting">Home</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/#/about" to="/testing-hosting/#/about">About</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/#/team" to="/testing-hosting/#/team">Team</Nav.Link>
+              <Nav.Link style={{ backgroundColor: 'orange' }}  componentClass={Link} href="/testing-hosting/#/portofolio" to="/testing-hosting/#/portofolio">Portofolio</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/#/contact" to="/testing-hosting/#/contact">Contact</Nav.Link>
             </Nav>
         </Container>
         </Navbar>
@@ -130,11 +130,11 @@ function NavbarPage({ flagMenu }) {
         <Navbar bg="dark" variant="dark">
           <Container>
             <Nav className="me-auto">
-              <Nav.Link componentClass={Link} href="/" to="/">Home</Nav.Link>
-              <Nav.Link componentClass={Link} href="/about" to="/about">About</Nav.Link>
-              <Nav.Link componentClass={Link} href="/team" to="/team">Team</Nav.Link>
-              <Nav.Link componentClass={Link} href="/portofolio" to="/portofolio">Portofolio</Nav.Link>
-              <Nav.Link style={{ backgroundColor: 'orange' }} componentClass={Link} href="/contact" to="/contact">Contact</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting" to="/testing-hosting">Home</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/#/about" to="/testing-hosting/#/about">About</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/#/team" to="/testing-hosting/#/team">Team</Nav.Link>
+              <Nav.Link componentClass={Link} href="/testing-hosting/#/portofolio" to="/testing-hosting/#/portofolio">Portofolio</Nav.Link>
+              <Nav.Link style={{ backgroundColor: 'orange' }} componentClass={Link} href="/testing-hosting/#/contact" to="/testing-hosting/#/contact">Contact</Nav.Link>
             </Nav>
         </Container>
         </Navbar>
