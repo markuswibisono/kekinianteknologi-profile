@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/testing-hosting/static/css/main.a740c122.css",
-    "main.js": "/testing-hosting/static/js/main.ba5d55cb.js",
+    "main.js": "/testing-hosting/static/js/main.bdd9e2ac.js",
     "static/js/787.80db1118.chunk.js": "/testing-hosting/static/js/787.80db1118.chunk.js",
     "static/media/boxicons.svg": "/testing-hosting/static/media/boxicons.2932c34d456522282808.svg",
     "static/media/ruangkantor.jpg": "/testing-hosting/static/media/ruangkantor.028a6994f2c61bb8dccf.jpg",
@@ -10,8 +10,10 @@
     "static/media/boxicons.ttf": "/testing-hosting/static/media/boxicons.426af27b46d4c8a018df.ttf",
     "static/media/hero-bg.jpg": "/testing-hosting/static/media/hero-bg.42216018bd702af38fa1.jpg",
     "static/media/testimonials-bg.jpg": "/testing-hosting/static/media/testimonials-bg.b5a6189eb5ae7a6d81aa.jpg",
-    "static/media/portofolio-app.jpg": "/testing-hosting/static/media/portofolio-app.9373cae3153386db2d0c.jpg",
+    "static/media/form_kredit_app.jpg": "/testing-hosting/static/media/form_kredit_app.fa2e69134c2a286c2096.jpg",
+    "static/media/detail_barang.jpg": "/testing-hosting/static/media/detail_barang.e9bffe1b3ad5f5e5c329.jpg",
     "static/media/bootstrap-icons.woff?": "/testing-hosting/static/media/bootstrap-icons.ea6f3dfe4ebb15134576.woff",
+    "static/media/splash-screen.jpg": "/testing-hosting/static/media/splash-screen.87eaadd9c5bf4657adc8.jpg",
     "static/media/boxicons.woff2": "/testing-hosting/static/media/boxicons.af4cc70871df09d7cbb2.woff2",
     "static/media/kotlin-logo.png": "/testing-hosting/static/media/kotlin-logo.4cdb1e9d736dcfbeba3b.png",
     "static/media/ci-logo.png": "/testing-hosting/static/media/ci-logo.89b140d7145349f2cd5d.png",
@@ -19,14 +21,15 @@
     "static/media/bootstrap-icons.woff2?": "/testing-hosting/static/media/bootstrap-icons.66e4109ec6241c76fdcf.woff2",
     "static/media/react-js-logo.png": "/testing-hosting/static/media/react-js-logo.cea1e95dbec355de1121.png",
     "static/media/mysql-logo.jpg": "/testing-hosting/static/media/mysql-logo.052d34f0a3138fa71b45.jpg",
+    "static/media/icon_playstore_crop.png": "/testing-hosting/static/media/icon_playstore_crop.1411e94024ac8250b811.png",
     "static/media/foto_profil2.jpg": "/testing-hosting/static/media/foto_profil2.25e767c85db08b6d51a2.jpg",
     "index.html": "/testing-hosting/index.html",
     "main.a740c122.css.map": "/testing-hosting/static/css/main.a740c122.css.map",
-    "main.ba5d55cb.js.map": "/testing-hosting/static/js/main.ba5d55cb.js.map",
+    "main.bdd9e2ac.js.map": "/testing-hosting/static/js/main.bdd9e2ac.js.map",
     "787.80db1118.chunk.js.map": "/testing-hosting/static/js/787.80db1118.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a740c122.css",
-    "static/js/main.ba5d55cb.js"
+    "static/js/main.bdd9e2ac.js"
   ]
 }
