@@ -14,7 +14,7 @@ import ContactPage from './Template/ContactPage';
 
 import PortofolioPage from './Template/PortofolioPage';
 
-
+import AppPortofolio from './Template/AppPortofolio';
 
 export default function RoutesPage() {
   return (
@@ -46,7 +46,11 @@ export default function RoutesPage() {
               <NavbarPage flagMenu="contact" />
               <ContactPage/>
         </Route>
-      </Switch>      
+        <Route exact path="/aboutportofolio">
+            <NavbarPage flagMenu="aboutportofolio" />
+            <AppPortofolio />
+        </Route>
+      </Switch>
     </Router>
   );
 }
