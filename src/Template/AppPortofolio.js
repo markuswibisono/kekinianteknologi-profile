@@ -16,7 +16,7 @@ function AppPortofolio() {
 
   return (
     <>
-    <Card style={{ width: '20rem', marginLeft: '5rem', marginTop: '2rem' }}>
+    <Card style={{ width: '20rem', marginLeft: '10rem', marginTop: '2rem' }}>
         <Card.Body>
             <Card.Title>Aplikasi android: <b>JagoanMokas</b></Card.Title>
                 <Card.Text>
