@@ -28,7 +28,7 @@ function PortofolioPage() {
                         JagoanMokas adalah aplikasi jual beli motor bekas <br />
                         secara online yang terhubung dengan <br />
                         pembayaraan virtual account <br />
-                        <Nav.Link componentClass={Link} href="/testing-hosting/#/aboutportofolio" to="/testing-hosting/#/aboutportofolio">Lihat Selengkapnya..</Nav.Link>
+                        <Nav.Link componentClass={Link} href="/kekinianteknologi-profile/#/aboutportofolio" to="/testing-hosting/#/aboutportofolio">Lihat Selengkapnya..</Nav.Link>
                   </Card.Text>
                 </Card.Body>
               </Card>
