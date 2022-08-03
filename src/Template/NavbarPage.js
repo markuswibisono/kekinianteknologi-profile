@@ -29,9 +29,7 @@ function NavbarPage({ flagMenu }) {
       </section>
      
         <Navbar bg="dark" variant="dark">
-        <img style={{ marginLeft: '2rem' }} src={imgnavbar} width="40" height="35"/>
           <Container>
-             
             <Nav className="me-auto">
               <Nav.Link  style={{ backgroundColor: 'orange' }} componentClass={Link} href="/kekinianteknologi-profile" to="/kekinianteknologi-profile">Home</Nav.Link>
               <Nav.Link componentClass={Link} href="/kekinianteknologi-profile/#/about" to="/kekinianteknologi-profile/#/about">About</Nav.Link>
@@ -56,7 +54,6 @@ function NavbarPage({ flagMenu }) {
           </div>
       </section>
         <Navbar bg="dark" variant="dark">
-        <img style={{ marginLeft: '2rem' }} src={imgnavbar} width="40" height="35"/>
           <Container>
             <Nav className="me-auto">
               <Nav.Link componentClass={Link} href="/kekinianteknologi-profile" to="/kekinianteknologi-profile">Home</Nav.Link>
@@ -82,7 +79,6 @@ function NavbarPage({ flagMenu }) {
           </div>
       </section>
         <Navbar bg="dark" variant="dark">
-        <img style={{ marginLeft: '2rem' }} src={imgnavbar} width="40" height="35"/>
           <Container>
             <Nav className="me-auto">
               <Nav.Link componentClass={Link} href="/kekinianteknologi-profile" to="/kekinianteknologi-profile">Home</Nav.Link>
@@ -108,7 +104,6 @@ function NavbarPage({ flagMenu }) {
           </div>
       </section>
         <Navbar bg="dark" variant="dark">
-        <img style={{ marginLeft: '2rem' }} src={imgnavbar} width="40" height="35"/>
           <Container>
             <Nav className="me-auto">
               <Nav.Link componentClass={Link} href="/kekinianteknologi-profile" to="/kekinianteknologi-profile">Home</Nav.Link>
@@ -136,7 +131,6 @@ function NavbarPage({ flagMenu }) {
           </div>
       </section>
         <Navbar bg="dark" variant="dark">
-        <img style={{ marginLeft: '2rem' }} src={imgnavbar} width="40" height="35"/>
           <Container>
             <Nav className="me-auto">
               <Nav.Link componentClass={Link} href="/kekinianteknologi-profile" to="/kekinianteknologi-profile">Home</Nav.Link>
@@ -168,7 +162,6 @@ function NavbarPage({ flagMenu }) {
         </section>
 
         <Navbar bg="dark" variant="dark">
-        <img style={{ marginLeft: '2rem' }} src={imgnavbar} width="40" height="35"/>
           <Container>
             <Nav className="me-auto">
               <Nav.Link componentClass={Link} href="/kekinianteknologi-profile" to="/kekinianteknologi-profile">Home</Nav.Link>
