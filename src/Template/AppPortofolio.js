@@ -33,7 +33,7 @@ function AppPortofolio() {
 
                         <Row>
                           <Col sm>
-                          <Card style={{ width: '8rem' }}>
+                          <Card style={{ width: '8rem', marginTop:'2rem' }}>
                              <Card.Img variant="top"   src={splash_screen}  />
 
                           </Card>
@@ -42,7 +42,7 @@ function AppPortofolio() {
 
                           <Col sm>
 
-                          <Card style={{ width: '8rem' }}>
+                          <Card style={{ width: '8rem', marginTop:'2rem' }}>
                              <Card.Img variant="top"   src={detail_screen}  />
 
                           </Card>
