@@ -18,7 +18,7 @@ import AppPortofolio from './Template/AppPortofolio';
 
 export default function RoutesPage() {
   return (
-    <Router basename={"/testing-hosting"}>
+    <Router basename={"/kekinianteknologi-profile"}>
       <Switch>
         <Route exact path='/'>
             <NavbarPage flagMenu="home"/>
