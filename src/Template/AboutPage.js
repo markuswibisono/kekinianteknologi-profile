@@ -15,7 +15,7 @@ function AboutPage() {
 
   return (
     <>
-      <Container style={{ marginTop: '5rem' }}>
+      <Container id="about" style={{ marginTop: '5rem' }}>
       <Card.Title style={{ color: 'blue' }}>About</Card.Title>
             <br />
             <Row xs={2} md={3}>

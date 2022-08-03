@@ -31,7 +31,7 @@ function HomePage() {
               KekinianTeknologi merupakaan perusahan yang bergerak di bidang IT yang menyediakaan 
               jasa pembuataan berbasis Android dan Web
             </Card.Text>
-            <Button variant="primary">Get Started</Button>
+            <a type="button" href="#about" class="btn btn-primary">Get Started</a>
           </Card.Body>
         </Card>
 
