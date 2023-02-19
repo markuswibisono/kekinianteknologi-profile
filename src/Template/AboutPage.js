@@ -24,10 +24,8 @@ function AboutPage() {
                 <Card.Img variant="top" src={ruangKantor}  />
                 <Card.Body>
                   <Card.Text>
-
-                      Perusahaan kami berdiri 13 Febuari 2023 yang terletak Apartment The Spring Lake, Jl Sentra Summarecon Bekasi,
+                      Perusahaan Kekinian Tekno Nusantara berdiri 13 Febuari 2023 yang terletak Apartment The Spring Lake, Jl Sentra Summarecon Bekasi,
                       Jl. Boulevard Ahm MargaMulya, Bekasi Utara Kota Bekasi Jawa Barat.
-                      
                   </Card.Text>
                 </Card.Body>
               </Card>
