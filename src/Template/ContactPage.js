@@ -38,7 +38,12 @@ function ContactPage() {
     postData.append("nohp", event.target.noHpCust.value);
     postData.append("email", event.target.emailCust.value);
     
-    axios.post('/InputProfile', postData
+    axios.post('/InputProfile', postData,
+    {
+      proxy: {
+          host: 'http://kekinianteknologi.com/kekinianteknologi.com/kekinianprofile/restapi/index.php'
+      }
+    }
     )
     
     .then(res => {

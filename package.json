@@ -1,7 +1,6 @@
 {
   "name": "kekinianteknologi-profile",
   "version": "0.1.0",
-  "proxy": "http://kekinianteknologi.com/kekinianteknologi.com/kekinianprofile/restapi/index.php",
   "homepage": "https://markuswibisono.github.io/kekinianteknologi-profile",
   "private": true,
   "dependencies": {
