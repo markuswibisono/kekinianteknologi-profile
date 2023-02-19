@@ -20,16 +20,20 @@ import backgroundCard4 from "../assets/img/mysql-logo.jpg";
 
 import backgroundCard5 from "../assets/img/ci-logo.png";
 
+import logo_perusahaan from "../assets/img/logo_web_perusahaan.jpg";
+
 function HomePage() {
 
   return (
     <>
         <Card>
           <Card.Body style={{ marginLeft: '4rem' }}>
-            <Card.Title><b>Selamat Datang di </b><span style={{ color: 'blue' }}>KekinianTeknologi.</span></Card.Title>
+            <Card.Title><span > <img src={logo_perusahaan} width="80rem" height="50rem" /></span><span style={{color:'#fa2222'}}>Kekinian</span><span style={{color:'#2271fa'}}> Tekno Nusantara</span></Card.Title>
             <Card.Text>
-              KekinianTeknologi merupakaan perusahan yang bergerak di bidang IT yang menyediakaan 
-              jasa pembuataan berbasis Android dan Web
+                  <div style={{ marginLeft: '7rem' }}>
+                    Kekinian Tekno Nusantara menyediakaan 
+                    jasa pembuataan berbasis Android dan Web
+                  </div>
             </Card.Text>
             <a type="button" href="#about" class="btn btn-primary">Get Started</a>
           </Card.Body>
