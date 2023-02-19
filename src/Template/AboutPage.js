@@ -24,15 +24,8 @@ function AboutPage() {
                 <Card.Img variant="top" src={ruangKantor}  />
                 <Card.Body>
                   <Card.Text>
-                      Perusahaan kami menyediakaan jasa pembuataan web dan aplikasi android<br />
-                    yang mencakup: 
-                    <br />
-                    <br />
-                    <ListGroup>
-                      <ListGroup.Item>Web Company Profile</ListGroup.Item>
-                      <ListGroup.Item>Web Data Management</ListGroup.Item>
-                      <ListGroup.Item>Aplikasi Android <br />untuk mendukung management</ListGroup.Item>
-                  </ListGroup>
+                      Perusahaan kami berdiri 13 Febuari 2023 yang terletak Apartment The Spring Lake, Jl Sentra Summarecon Bekasi,
+                      Jl. Boulevard Ahm MargaMulya, Bekasi Utara Kota Bekasi Jawa Barat.
                   </Card.Text>
                 </Card.Body>
               </Card>
