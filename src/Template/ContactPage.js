@@ -38,9 +38,15 @@ function ContactPage() {
     postData.append("nohp", event.target.noHpCust.value);
     postData.append("email", event.target.emailCust.value);
     
+    const headers = {
+      "Content-Type": "text/json",
+      "Access-Control-Allow-Origin": "*"
+  };
     
-    axios.post('http://kekinianteknologi.com/kekinianteknologi.com/kekinianprofile/restapi/index.php/InputProfile', postData
-    ).then(res => {
+    axios.post('http://kekinianteknologi.com/kekinianteknologi.com/kekinianprofile/restapi/index.php/InputProfile', postData, { headers }
+    )
+    
+    .then(res => {
 
       console.log(res);
       
