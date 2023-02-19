@@ -38,11 +38,8 @@ function ContactPage() {
     postData.append("nohp", event.target.noHpCust.value);
     postData.append("email", event.target.emailCust.value);
     
-    const headers = { 
-      'Content-Type': 'application/json'
-  };
     axios.post('http://kekinianteknologi.com/kekinianteknologi.com/kekinianprofile/restapi/index.php/InputProfile', postData, 
-    { headers,  mode: 'no-cors' }
+    { mode: 'no-cors', crossdomain: true  }
     )
     
     .then(res => {
