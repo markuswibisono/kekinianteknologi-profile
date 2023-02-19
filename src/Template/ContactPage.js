@@ -38,11 +38,10 @@ function ContactPage() {
     postData.append("nohp", event.target.noHpCust.value);
     postData.append("email", event.target.emailCust.value);
     
-    axios.post('http://kekinianteknologi.com/kekinianteknologi.com/kekinianprofile/restapi/index.php/InputProfile', postData, { mode: 'cors' }
+    axios.post('/InputProfile', postData
     )
     
     .then(res => {
-      res.set('Access-Control-Allow-Origin', '*');
 
       console.log(res);
       setState("Data sudah terkirim, silahkan check email anda.");
