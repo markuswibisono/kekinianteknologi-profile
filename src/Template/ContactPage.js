@@ -21,16 +21,18 @@ import tempatkantor from "../assets/img/summarecon-logo.jpg";
 
 function ContactPage() {
 
-  //const cors = require("cors");
   //const [flagspan] = "ada";
 
   //const unreadMessages = "";
 
   //const [state, setState] = useState("");
+
   const handleSubmit = (event) => {
 
 
     event.preventDefault();
+
+
 
     var postData = new FormData();
     postData.append("nama", event.target.namaCust.value);
@@ -38,7 +40,7 @@ function ContactPage() {
     postData.append("nohp", event.target.noHpCust.value);
     postData.append("email", event.target.emailCust.value);
     
-    axios.post('/InputProfile', postData, proxy('http://kekinianteknologi.com/kekinianteknologi.com/kekinianprofile/restapi/index.php'))
+    axios.post('http://kekinianteknologi.com/kekinianteknologi.com/kekinianprofile/restapi/index.php/InputProfile', postData)
     
     .then(res => {
 
