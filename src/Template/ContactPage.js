@@ -32,27 +32,27 @@ function ContactPage() {
 
     event.preventDefault();
 
-    /*var postData = new FormData();
+    var postData = new FormData();
     postData.append("nama", event.target.namaCust.value);
     postData.append("alamat", event.target.alamatCust.value);
     postData.append("nohp", event.target.noHpCust.value);
     postData.append("email", event.target.emailCust.value);
     
-    axios.post('/InputProfile', postData)
+    axios.post('/InputProfile', postData, proxy('http://kekinianteknologi.com/kekinianteknologi.com/kekinianprofile/restapi/index.php'))
     
     .then(res => {
 
       console.log(res);
-      setState("Data sudah terkirim, silahkan check email anda.");
+      //setState("Data sudah terkirim, silahkan check email anda.");
 
 
     }, (error) => {
        console.log(error.response.data);
-    });*/
+    });
 
       //alert(event.target.namaCust.value);
 
-      alert("testing github");
+      //alert("testing github");
 
     }
 
