@@ -1,7 +1,6 @@
 {
   "name": "kekinianteknologi-profile",
   "version": "0.1.0",
-  "proxy": "http://kekinianteknologi.com/kekinianteknologi.com/kekinianprofile/restapi/index.php",
   "homepage": "https://markuswibisono.github.io/kekinianteknologi-profile",
   "private": true,
   "dependencies": {
@@ -23,8 +22,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "dev": "run-p server start"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

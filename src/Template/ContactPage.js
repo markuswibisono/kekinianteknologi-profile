@@ -26,13 +26,13 @@ function ContactPage() {
 
   //const unreadMessages = "";
 
-  const [state, setState] = useState("");
+  //const [state, setState] = useState("");
   const handleSubmit = (event) => {
 
 
     event.preventDefault();
 
-    var postData = new FormData();
+    /*var postData = new FormData();
     postData.append("nama", event.target.namaCust.value);
     postData.append("alamat", event.target.alamatCust.value);
     postData.append("nohp", event.target.noHpCust.value);
@@ -48,9 +48,11 @@ function ContactPage() {
 
     }, (error) => {
        console.log(error.response.data);
-    });
+    });*/
 
       //alert(event.target.namaCust.value);
+
+      alert("testing github");
 
     }
 
@@ -108,13 +110,6 @@ function ContactPage() {
                           <Button variant="primary" type="submit">
                               Submit
                           </Button>
-
-                          
-                              
-                              
-                              <span style={{ marginLeft: '1rem', color: 'green' }}>
-                                  {state}
-                              </span>
                               
                          
                         </Form.Group>
