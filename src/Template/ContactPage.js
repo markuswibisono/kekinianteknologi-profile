@@ -9,23 +9,17 @@ import '../assets/vendor/swiper/swiper-bundle.min.css';
 import '../assets/css/style.css';
 
 
-import axios from 'axios';
+
 
 import { Card, Container, Row, Col, Form, Button  } from 'react-bootstrap';
 
-import { useState, React  } from 'react';
+import { React  } from 'react';
 
 import tempatkantor from "../assets/img/summarecon-logo.jpg";
 
-
+import { ScrollView } from "@cantonjs/react-scroll-view";
 
 function ContactPage() {
-
-  //const [flagspan] = "ada";
-
-  //const unreadMessages = "";
-
-  //const [state, setState] = useState("");
 
 
 
@@ -50,6 +44,11 @@ function ContactPage() {
               </Col>
           </Row>
       </Container>
+
+      <ScrollView onEndReached={this.handleEndReached} style={{ height: '100vh' }}>
+        <h1>React Scroll View</h1>
+        <p>Awseome!</p>
+      </ScrollView>
     </>
 
   );
