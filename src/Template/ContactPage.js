@@ -43,7 +43,7 @@ function ContactPage() {
                         Apartemen The Springlake Summarecon Bekasi, Jl. Bulevar Ahmad Yani,
                          RT.005/RW.003, Marga Mulya, Kec. Bekasi Utara, 
                          Kota Bks, Jawa Barat 17142 <br />
-                         <b>Contact: 08881283981</b>
+                         <b>Contact: 08881283981ss</b>
                   </Card.Text>
                 </Card.Body>
               </Card>
