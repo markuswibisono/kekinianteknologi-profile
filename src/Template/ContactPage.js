@@ -17,9 +17,16 @@ import { React  } from 'react';
 
 import tempatkantor from "../assets/img/summarecon-logo.jpg";
 
+import { ScrollView } from 'react-native';
+
 function ContactPage() {
   return (
+
     <>
+
+
+
+
       <Container style={{ marginTop: '5rem' }}>
       <Card.Title style={{ color: 'blue' }}>Contact</Card.Title>
             <br />
