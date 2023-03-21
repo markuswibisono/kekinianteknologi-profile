@@ -17,12 +17,7 @@ import { React  } from 'react';
 
 import tempatkantor from "../assets/img/summarecon-logo.jpg";
 
-import { ScrollView } from "@cantonjs/react-scroll-view";
-
 function ContactPage() {
-
-
-
   return (
     <>
       <Container style={{ marginTop: '5rem' }}>
@@ -44,11 +39,6 @@ function ContactPage() {
               </Col>
           </Row>
       </Container>
-
-      <ScrollView onEndReached={this.handleEndReached} style={{ height: '100vh' }}>
-        <h1>React Scroll View</h1>
-        <p>Awseome!</p>
-      </ScrollView>
     </>
 
   );
