@@ -27,38 +27,7 @@ function ContactPage() {
 
   //const [state, setState] = useState("");
 
-  const handleSubmit = (event) => {
 
-
-    event.preventDefault();
-
-
-
-    var postData = new FormData();
-    postData.append("nama", event.target.namaCust.value);
-    postData.append("alamat", event.target.alamatCust.value);
-    postData.append("nohp", event.target.noHpCust.value);
-    postData.append("email", event.target.emailCust.value);
-    
-    axios.post('http://kekinianteknologi.com/kekinianteknologi.com/kekinianprofile/restapi/index.php/InputProfile', postData)
-    
-    .then(res => {
-
-      console.log(res);
-      //setState("Data sudah terkirim, silahkan check email anda.");
-
-
-    }, (error) => {
-       console.log(error.response.data);
-    });
-
-      //alert(event.target.namaCust.value);
-
-      //alert("testing github");
-
-    }
-
- 
 
   return (
     <>
@@ -78,51 +47,6 @@ function ContactPage() {
                   </Card.Text>
                 </Card.Body>
               </Card>
-              </Col>
-              <Col>
-
-                <Card style={{  marginLeft: '2rem', width: '30rem' }}>
-                  <Card.Title>Tinggalkan pesan jika anda tertarik atau ingin tau lebih lanjut perusahaan kami, pihak sales akan menghubungi</Card.Title>
-                  <Card.Body>
-                    <Card.Text>
-                    
-                        <Form onSubmit={handleSubmit}>
-                        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                          <Form.Label>Nama: </Form.Label>
-                          <Form.Control type="text" name="namaCust" placeholder="john smith" />
-
-                          <br />
-                          
-                          <Form.Label>Alamat: </Form.Label>
-                          <Form.Control type="text" name="alamatCust" placeholder="jl summarecon bekasi" />
-
-                          <br />
-
-                          <Form.Label>No Handphone: </Form.Label>
-                          <Form.Control type="number" name="noHpCust" placeholder="08123xxx" />
-
-                          <br />
-
-
-                          <Form.Label>Email: </Form.Label>
-                          <Form.Control type="email" name="emailCust" placeholder="markus@kekinianteknologi.com" />
-
-                          <br/>
-
-                          <Button variant="primary" type="submit">
-                              Submit
-                          </Button>
-                              
-                         
-                        </Form.Group>
-
-                        </Form>
-
-
-                        
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
               </Col>
           </Row>
       </Container>
