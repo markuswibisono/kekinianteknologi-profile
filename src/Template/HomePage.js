@@ -28,7 +28,14 @@ function HomePage() {
     <>
         <Card>
           <Card.Body style={{ marginLeft: '4rem' }}>
-            <Card.Title><span > <img src={logo_perusahaan} width="80rem" height="50rem" /></span><span style={{color:'#fa2222'}}>Kekinian</span><span style={{color:'#2271fa'}}> Tekno Nusantara</span></Card.Title>
+            <Card.Title>
+                        <span > 
+                          <img src={logo_perusahaan} width="80rem" height="50rem" />
+                        </span>
+                        <span style={{color:'#2271fa', marginLeft:'5rem'}}>
+                          Tekno Nusantara
+                        </span>
+            </Card.Title>
             <Card.Text>
                   <div style={{ marginLeft: '7rem' }}>
                     Kekinian Tekno Nusantara menyediakaan 
