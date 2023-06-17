@@ -35,7 +35,10 @@ function PortofolioPage() {
                 </Card.Body>
               </Card>
               </Col>
-              <Col>
+          </Row>
+          <br></br>
+          <Row xs={2} md={3}>
+          <Col>
               <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src={splashscreen2}  />
                 <Card.Body>
@@ -49,8 +52,6 @@ function PortofolioPage() {
                 </Card.Body>
               </Card>
               </Col>
-
-
           </Row>
       </Container>
     </>

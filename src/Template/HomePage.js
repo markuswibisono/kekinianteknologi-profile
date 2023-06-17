@@ -30,8 +30,9 @@ function HomePage() {
           <Card.Body style={{ marginLeft: '4rem' }}>
             <Card.Title>
                         <span > 
-                          <img src={logo_perusahaan} width="80rem" height="50rem" />
-                        </span>
+                          <img src={logo_perusahaan} width="80rem" height="50rem" /></span>
+                          <span style={{color:'#fa2222'}}>Kekinian</span>
+                        <br></br>
                         <span style={{color:'#2271fa', marginLeft:'5rem'}}>
                           Tekno Nusantara
                         </span>
