@@ -42,7 +42,8 @@ function PortofolioPage() {
               <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src={splashscreen2}  />
                 <Card.Body>
-                  <Card.Title>Aplikasi android: <b>Klub Kebugaraan</b></Card.Title>
+                  <Card.Title>Aplikasi android: <br></br>
+                  <b>Klub Kebugaraan</b></Card.Title>
                   <Card.Text>
                          Aplikasi yang bekerja sama dengan 6 Klub Fitness. Aplikasi ini di lengkapi dengan fitur untuk melihat 
                          <br></br> Jadwal Kelas dan Fasilitas yang di sediakan untuk masing-masing Klub

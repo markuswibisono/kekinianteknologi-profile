@@ -16,6 +16,8 @@ import PortofolioPage from './Template/PortofolioPage';
 
 import AppPortofolio from './Template/AppPortofolio';
 
+import AppPortofolio2 from './Template/AppPortofolio2';
+
 export default function RoutesPage() {
   return (
     <Router basename={"/kekinianteknologi-profile"}>
@@ -49,6 +51,10 @@ export default function RoutesPage() {
         <Route exact path="/aboutportofolio">
             <NavbarPage flagMenu="aboutportofolio" />
             <AppPortofolio />
+        </Route>
+        <Route exact path="/aboutportofolio2">
+            <NavbarPage flagMenu="aboutportofolio2" />
+            <AppPortofolio2 />
         </Route>
       </Switch>
     </Router>
