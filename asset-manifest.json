@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kekinianteknologi-profile/static/css/main.6885c194.css",
-    "main.js": "/kekinianteknologi-profile/static/js/main.0e963b0d.js",
+    "main.js": "/kekinianteknologi-profile/static/js/main.c364739b.js",
     "static/js/787.49adedd2.chunk.js": "/kekinianteknologi-profile/static/js/787.49adedd2.chunk.js",
     "static/media/boxicons.svg": "/kekinianteknologi-profile/static/media/boxicons.fff4a3904fd6c2139c5d.svg",
     "static/media/ruangkantor.jpg": "/kekinianteknologi-profile/static/media/ruangkantor.028a6994f2c61bb8dccf.jpg",
@@ -27,11 +27,11 @@
     "static/media/foto_profil2.jpg": "/kekinianteknologi-profile/static/media/foto_profil2.25e767c85db08b6d51a2.jpg",
     "index.html": "/kekinianteknologi-profile/index.html",
     "main.6885c194.css.map": "/kekinianteknologi-profile/static/css/main.6885c194.css.map",
-    "main.0e963b0d.js.map": "/kekinianteknologi-profile/static/js/main.0e963b0d.js.map",
+    "main.c364739b.js.map": "/kekinianteknologi-profile/static/js/main.c364739b.js.map",
     "787.49adedd2.chunk.js.map": "/kekinianteknologi-profile/static/js/787.49adedd2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6885c194.css",
-    "static/js/main.0e963b0d.js"
+    "static/js/main.c364739b.js"
   ]
 }
