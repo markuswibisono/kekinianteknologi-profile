@@ -5,13 +5,15 @@ import { Container, Card,  Row, Col} from 'react-bootstrap';
 
 import splashscreen from "../assets/img/splash-screen.jpg";
 
+import splashscreen2 from "../assets/img/logo-megagym.jpeg";
+
 import { Link } from 'react-router-dom';
 import {  Nav } from 'react-bootstrap';
 
 
 function PortofolioPage() {
 
-
+  
   return (
     <>
   
@@ -33,6 +35,22 @@ function PortofolioPage() {
                 </Card.Body>
               </Card>
               </Col>
+              <Col>
+              <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src={splashscreen2}  />
+                <Card.Body>
+                  <Card.Title>Aplikasi android: <b>Klub Kebugaraan</b></Card.Title>
+                  <Card.Text>
+                         Aplikasi yang bekerja sama dengan 6 Klub Fitness. Aplikasi ini di lengkapi dengan fitur untuk melihat 
+                         <br></br> Jadwal Kelas dan Fasilitas yang di sediakan untuk masing-masing Klub
+                         <br></br> dan di lengkapi dengan fitur WhatsApp yang langsung terhubung dengan marketing.
+                         <Nav.Link componentClass={Link} href="/kekinianteknologi-profile/#/aboutportofolio2" to="/testing-hosting/#/aboutportofolio2">Lihat Selengkapnya..</Nav.Link>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+              </Col>
+
+
           </Row>
       </Container>
     </>
