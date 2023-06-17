@@ -72,7 +72,9 @@ function AppPortofolio2() {
 
                         <br />
 
-                        <a href={'https://play.google.com/store/apps/details?id=com.kekinianteknologi.testingapilication1'}><img  src={icon_playstore}  width="50%" height="30%" /></a>
+                        <a href='https://play.google.com/store/apps/details?id=com.portofolio.testingapp2'>
+                           <img  src={icon_playstore}  width="50%" height="30%" />
+                        </a>
 
 
                 </Card.Text>

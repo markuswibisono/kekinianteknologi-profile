@@ -70,8 +70,9 @@ function AppPortofolio() {
 
                         <br />
 
-                        <img  src={icon_playstore}  width="50%" height="30%" />
-
+                        <a href='https://play.google.com/store/apps/details?id=com.kekinianteknologi.testingapilication1'>
+                           <img  src={icon_playstore}  width="50%" height="30%" />
+                        </a>
 
                 </Card.Text>
         </Card.Body>

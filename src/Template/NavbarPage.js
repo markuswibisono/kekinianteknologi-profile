@@ -178,6 +178,37 @@ function NavbarPage({ flagMenu }) {
     );
 
   }
+
+  else if(flagMenu == "aboutportofolio2") {
+
+    return (
+      <>
+
+        <section id="topbar" className ="d-flex align-items-center">
+          <div className ="container d-flex justify-content-center justify-content-md-between">
+              <div className="contact-info d-flex align-items-center">
+              <i className="bi bi-phone d-flex align-items-center ms-4"><span>08881283981</span></i>
+            </div>
+          </div>
+        </section>
+
+        <Navbar bg="dark" variant="dark">
+          <Container>
+            <Nav className="me-auto">
+              <Nav.Link componentClass={Link} href="/kekinianteknologi-profile" to="/kekinianteknologi-profile">Home</Nav.Link>
+              <Nav.Link componentClass={Link} href="/kekinianteknologi-profile/#/about" to="/kekinianteknologi-profile/#/about">About</Nav.Link>
+              <Nav.Link componentClass={Link} href="/kekinianteknologi-profile/#/team" to="/kekinianteknologi-profile/#/team">Team</Nav.Link>
+              <Nav.Link style={{ backgroundColor: 'orange' }} componentClass={Link} href="/kekinianteknologi-profile/#/portofolio" to="/kekinianteknologi-profile/#/portofolio">Portofolio</Nav.Link>
+              <Nav.Link componentClass={Link} href="/kekinianteknologi-profile/#/contact" to="/kekinianteknologi-profile/#/contact">Contact</Nav.Link>
+            </Nav>
+        </Container>
+        </Navbar>
+
+
+      </>
+    );
+
+  }
 }
 
 export default NavbarPage;

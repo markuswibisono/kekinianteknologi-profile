@@ -50,6 +50,10 @@ export default function RoutesPage() {
             <NavbarPage flagMenu="aboutportofolio" />
             <AppPortofolio />
         </Route>
+        <Route exact path="/aboutportofolio2">
+            <NavbarPage flagMenu="aboutportofolio2" />
+            <AppPortofolio2 />
+        </Route>
       </Switch>
     </Router>
   );
