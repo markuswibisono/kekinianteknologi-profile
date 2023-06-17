@@ -30,7 +30,7 @@ function PortofolioPage() {
                         JagoanMokas adalah aplikasi jual beli motor bekas <br />
                         secara online yang terhubung dengan <br />
                         pembayaraan virtual account <br />
-                        <Nav.Link componentClass={Link} href="/kekinianteknologi-profile/#/aboutportofolio" to="/testing-hosting/#/aboutportofolio">Lihat Selengkapnya..</Nav.Link>
+                        <Nav.Link componentClass={Link} href="/kekinianteknologi-profile/#/aboutportofolio" to="/kekinianteknologi-profile/#/aboutportofolio">Lihat Selengkapnya..</Nav.Link>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -48,7 +48,7 @@ function PortofolioPage() {
                          Aplikasi yang bekerja sama dengan 6 Klub Fitness. Aplikasi ini di lengkapi dengan fitur untuk melihat 
                          <br></br> Jadwal Kelas dan Fasilitas yang di sediakan untuk masing-masing Klub
                          <br></br> dan di lengkapi dengan fitur WhatsApp yang langsung terhubung dengan marketing.
-                         <Nav.Link componentClass={Link} href="/kekinianteknologi-profile/#/aboutportofolio2" to="/testing-hosting/#/aboutportofolio2">Lihat Selengkapnya..</Nav.Link>
+                         <Nav.Link componentClass={Link} href="/kekinianteknologi-profile/#/aboutportofolio2" to="/kekinianteknologi-profile/#/aboutportofolio2">Lihat Selengkapnya..</Nav.Link>
                   </Card.Text>
                 </Card.Body>
               </Card>
