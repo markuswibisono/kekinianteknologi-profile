@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kekinianteknologi-profile/static/css/main.6885c194.css",
-    "main.js": "/kekinianteknologi-profile/static/js/main.ddca5f36.js",
+    "main.js": "/kekinianteknologi-profile/static/js/main.c407b719.js",
     "static/js/787.49adedd2.chunk.js": "/kekinianteknologi-profile/static/js/787.49adedd2.chunk.js",
     "static/media/boxicons.svg": "/kekinianteknologi-profile/static/media/boxicons.fff4a3904fd6c2139c5d.svg",
     "static/media/ruangkantor.jpg": "/kekinianteknologi-profile/static/media/ruangkantor.028a6994f2c61bb8dccf.jpg",
@@ -22,16 +22,19 @@
     "static/media/bootstrap-icons.woff2?": "/kekinianteknologi-profile/static/media/bootstrap-icons.66e4109ec6241c76fdcf.woff2",
     "static/media/react-js-logo.png": "/kekinianteknologi-profile/static/media/react-js-logo.cea1e95dbec355de1121.png",
     "static/media/mysql-logo.jpg": "/kekinianteknologi-profile/static/media/mysql-logo.052d34f0a3138fa71b45.jpg",
+    "static/media/kelas-club.jpeg": "/kekinianteknologi-profile/static/media/kelas-club.7f9d7f9b8dc13d4c86c6.jpeg",
+    "static/media/layanan-club2.jpeg": "/kekinianteknologi-profile/static/media/layanan-club2.5370520eb0e20b3318d2.jpeg",
     "static/media/logo-megagym.jpeg": "/kekinianteknologi-profile/static/media/logo-megagym.e2001033a8edbf7e2bec.jpeg",
+    "static/media/layanan-club.jpeg": "/kekinianteknologi-profile/static/media/layanan-club.c6d03f706c6800cc8ab7.jpeg",
     "static/media/icon_playstore_crop.png": "/kekinianteknologi-profile/static/media/icon_playstore_crop.1411e94024ac8250b811.png",
     "static/media/foto_profil2.jpg": "/kekinianteknologi-profile/static/media/foto_profil2.25e767c85db08b6d51a2.jpg",
     "index.html": "/kekinianteknologi-profile/index.html",
     "main.6885c194.css.map": "/kekinianteknologi-profile/static/css/main.6885c194.css.map",
-    "main.ddca5f36.js.map": "/kekinianteknologi-profile/static/js/main.ddca5f36.js.map",
+    "main.c407b719.js.map": "/kekinianteknologi-profile/static/js/main.c407b719.js.map",
     "787.49adedd2.chunk.js.map": "/kekinianteknologi-profile/static/js/787.49adedd2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6885c194.css",
-    "static/js/main.ddca5f36.js"
+    "static/js/main.c407b719.js"
   ]
 }
