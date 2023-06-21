@@ -22,10 +22,42 @@ import backgroundCard5 from "../assets/img/ci-logo.png";
 
 import logo_perusahaan from "../assets/img/logo_web_perusahaan.jpg";
 
+import logo_whatsApp from '../assets/img/whatsapp-icon.png';
+
 function HomePage() {
 
+
+  const styleContainer = {
+    height: '100%',
+    margin: '0',
+    fontFamily: 'Arial, Helvetica, sans-serif'
+  };
+
+
+  const styleLogoWhatsApp = {
+    backgroundColor: 'rgb(0,0,0)',
+    backgroundColor: 'rgba(0,0,0, 0.4)',
+    color: 'white',
+    fontWeight: 'bold',
+    fontSize: '80px',
+    border: '10px solid #f1f1f1',
+    position: 'fixed',
+    top: '50%',
+    left: '68%',
+    transform: ' translate(-50%, -50%)',
+    zIndex: '2',
+    width: '56%',
+    padding: '10px'
+  };
   return (
     <>
+
+    <Container style={styleContainer}>
+
+        <div style={styleLogoWhatsApp}>
+            <img src={logo_whatsApp} width="100" height="80" />
+              &nbsp;Hubungi Kami
+        </div>
         <Card>
           <Card.Body style={{ marginLeft: '4rem' }}>
             <Card.Title>
@@ -86,6 +118,9 @@ function HomePage() {
             </Col>
           </Row>
       </Container>
+      
+
+    </Container>
     </>
 
   );
