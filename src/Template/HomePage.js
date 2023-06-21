@@ -24,6 +24,7 @@ import logo_perusahaan from "../assets/img/logo_web_perusahaan.jpg";
 
 import logo_whatsApp from '../assets/img/whatsapp-icon.png';
 
+
 function HomePage() {
 
 
@@ -39,15 +40,14 @@ function HomePage() {
     backgroundColor: 'rgba(0,0,0, 0.4)',
     color: 'white',
     fontWeight: 'bold',
-    fontSize: '80px',
+    fontSize: '120%',
     border: '10px solid #f1f1f1',
     position: 'fixed',
-    top: '50%',
-    left: '68%',
+    top: '30%',
+    left: '70%',
     transform: ' translate(-50%, -50%)',
     zIndex: '2',
-    width: '56%',
-    padding: '10px'
+    width: '25%'
   };
   return (
     <>
@@ -55,8 +55,9 @@ function HomePage() {
     <Container style={styleContainer}>
 
         <div style={styleLogoWhatsApp}>
+          <a style= {{ textDecoration: 'none', color: 'black'}}  href='https://api.whatsapp.com/send?phone=+628881283981&text=mau tanya, tentang harga jasa pembuataan web dan aplikasi android di PT. Kekinian Tekno Nusantara?'>
             <img src={logo_whatsApp} width="100" height="80" />
-              &nbsp;Hubungi Kami
+              &nbsp;Hubungi Kami </a>
         </div>
         <Card>
           <Card.Body style={{ marginLeft: '4rem' }}>
