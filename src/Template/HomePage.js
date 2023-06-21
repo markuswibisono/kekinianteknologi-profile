@@ -29,7 +29,7 @@ function HomePage() {
 
 
   const styleContainer = {
-    height: '50rem',
+    height: '100%',
     margin: '0',
     fontFamily: 'Arial, Helvetica, sans-serif'
   };
@@ -40,14 +40,14 @@ function HomePage() {
     backgroundColor: 'rgba(0,0,0, 0.4)',
     color: 'white',
     fontWeight: 'bold',
-    fontSize: '1.5rem',
-    border: '1rem solid #f1f1f1',
+    fontSize: '120%',
+    border: '10px solid #f1f1f1',
     position: 'fixed',
-    top: '21rem',
-    left: '55rem',
+    top: '55%',
+    left: '70%',
     transform: ' translate(-50%, -50%)',
     zIndex: '2',
-    width: '20rem'
+    width: '25%'
   };
   return (
     <>
@@ -56,7 +56,7 @@ function HomePage() {
 
         <div style={styleLogoWhatsApp}>
           <a style= {{ textDecoration: 'none', color: 'black'}}  href='https://api.whatsapp.com/send?phone=+628881283981&text=mau tanya, tentang harga jasa pembuataan web dan aplikasi android di PT. Kekinian Tekno Nusantara?'>
-            <img src={logo_whatsApp} width="80rem" height="60rem" />
+            <img src={logo_whatsApp} width="100" height="80" />
               &nbsp;Hubungi Kami </a>
         </div>
         <Card>
