@@ -43,7 +43,7 @@ function HomePage() {
     fontSize: '120%',
     border: '10px solid #f1f1f1',
     position: 'fixed',
-    top: '30%',
+    top: '55%',
     left: '70%',
     transform: ' translate(-50%, -50%)',
     zIndex: '2',
