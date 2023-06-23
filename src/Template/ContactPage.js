@@ -23,9 +23,6 @@ function ContactPage() {
 
     <>
 
-
-
-
       <Container style={{ marginTop: '5rem' }}>
       <Card.Title style={{ color: 'blue' }}>Contact</Card.Title>
             <br />

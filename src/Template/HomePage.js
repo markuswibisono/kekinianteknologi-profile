@@ -49,6 +49,7 @@ function HomePage() {
     zIndex: '2',
     width: '80%'
   };
+  
   return (
     <>
 

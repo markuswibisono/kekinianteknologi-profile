@@ -24,29 +24,29 @@ export default function RoutesPage() {
       <Switch>
         <Route exact path='/'>
             <NavbarPage flagMenu="home"/>
-            <HomePage />
-            <AboutPage />
-            <TeamsPage />
-            <PortofolioPage />
-            <ContactPage />  
+            <HomePage menudata="home"/>
+            <AboutPage menudata="home"/>
+            <TeamsPage menudata="home"/>
+            <PortofolioPage menudata="home" />
+            <ContactPage menudata="home"/>  
         </Route>
         
         <Route exact path="/about">
                 <NavbarPage flagMenu="about"/>
-                <AboutPage />
+                <AboutPage menudata="about"/>
         </Route>
 
         <Route exact path="/team">
             <NavbarPage flagMenu="team" />
-            <TeamsPage /> 
+            <TeamsPage menudata="teams"/> 
         </Route>
         <Route exact path="/portofolio">
               <NavbarPage flagMenu="portofolio" />
-              <PortofolioPage/> 
+              <PortofolioPage menudata="portofolio"/> 
         </Route>
         <Route exact path="/contact">
               <NavbarPage flagMenu="contact" />
-              <ContactPage/>
+              <ContactPage menudata="contact"/>
         </Route>
         <Route exact path="/aboutportofolio">
             <NavbarPage flagMenu="aboutportofolio" />
